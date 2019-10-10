@@ -6,13 +6,13 @@
     "version": "3.9.0"
   },
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate --debug && ls -lh",
     "eslint": "eslint .",
     "deploy": "hexo deploy"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
-    "hexo": "github:hexojs/hexo",
+    "hexo": "github:hexojs/hexo#6f6084cb4d5772061aa45703b258634a0db13cee",
     "hexo-clean-css": "^1.0.0",
     "hexo-deployer-git": "^2.0.0",
     "hexo-generator-archive": "^1.0.0",
