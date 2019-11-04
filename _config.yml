@@ -35,3 +35,7 @@ algolia:
     index_name: hexo_zh-cn
 twitter: hexojs
 github: hexojs/hexo
+
+huge_site_plugin:
+  enable: true
+  overrideRenderPostFilter: true
